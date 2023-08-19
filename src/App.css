@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures the container takes at least the full viewport height */
+  }
+  
+  .content {
+    flex: 1; /* This will push the footer to the bottom */
+  }
